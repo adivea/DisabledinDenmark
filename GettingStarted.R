@@ -13,7 +13,8 @@ blogdown::new_site()
 
 # change stuff
 
-# navigate to AddInns and press 'Serve Site'
+# navigate to AddInns and press 'Serve Site', and in future,press F5
+blogdown::serve_site()
 
 # different theme (wait on this)
 # blogdown::new_site(theme = "themes/hugo-future-imperfect-skin", 

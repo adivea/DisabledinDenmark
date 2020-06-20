@@ -19,9 +19,16 @@ enableEmoji = true
 [[menu.main]]
     name = "Twitter"
     url = "https://twitter.com/adivea"
+[[menu.main]]
+    name = "Posts"
+    pre = "fa-bullhorn"
+    url = "/post/"
+    weight = 4
 
 [params]
-    description = "A website built through Hugo and blogdown."
+    description = "Adela and Vivienne's site."
+    chapter = "Aarhus, June 2020"
+    customCSS = ["css/erum.css", "css/font-awesome.min.css"]
 
     # options for highlight.js (version, additional languages, and theme)
     highlightjsVersion = "9.12.0"
