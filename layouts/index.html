@@ -1,0 +1,12 @@
+{{ partial "header" . }}
+
+<div class="intro">
+        <div><img class="center-image" src="images/Aros.png" width="100%"/></div>
+        <h1>{{ .Site.Params.Chapter }}</h1>
+
+        <h2>{{ markdownify .Site.Params.Description }}</h2>
+        <div><img class="center-image" src="images/ViviMain.png" width="50%"/></div>
+</div>
+
+
+{{ partial "footer" . }}

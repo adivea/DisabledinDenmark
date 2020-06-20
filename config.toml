@@ -26,7 +26,7 @@ enableEmoji = true
     weight = 4
 
 [params]
-    description = "Adela and Vivienne's site."
+    description = "From Australia to Denmark: Adela and Vivienne's site."
     chapter = "Aarhus, June 2020"
     customCSS = ["css/erum.css", "css/font-awesome.min.css"]
 
@@ -43,7 +43,7 @@ enableEmoji = true
     favicon = "favicon.ico"
 
     [params.logo]
-    url = "logo.png"
+    url = "eRum2020.png"
     width = 50
     height = 50
     alt = "Logo"
