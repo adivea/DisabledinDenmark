@@ -4,7 +4,7 @@ title = "Globetrotting with Muscular Dystrophy"
 theme = "hugo-lithium"
 googleAnalytics = ""
 disqusShortname = ""
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+ignoreFiles = ["\\.Rmarkdown$", "_files$", "_cache$"]
 enableEmoji = true
 
 [permalinks]
