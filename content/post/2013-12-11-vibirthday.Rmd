@@ -1,0 +1,16 @@
+---
+title: "Vivi is born"
+author: "Adela"
+date: 2013-12-11T21:13:14-05:00
+categories: ["R"]
+tags: ["R Markdown", "plot", "regression"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+# Christmas gift has arrived...
+
+
+... a little early.
