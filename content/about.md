@@ -3,7 +3,7 @@ date: "2016-05-05T21:48:51-07:00"
 title: About
 ---
 
-This is a site about living with disability. The story is of Vivienne Faye Ross and Adela Sobotkova. Vivienne is a girl of 6 years (as of June 2020), who was born at 7 months in Randwick, Australia, and at the age of 4 diagnosed with congenital muscular dystrophy, of the merosin-deficient (lama2) type.  
+This is a site about living with disability. The story is of Vivienne Faye Ross and Adela Sobotkova. Vivienne :heart: is a girl of 6 years (as of June 2020), who was born at 7 months in Randwick, Australia, and at the age of 4 diagnosed with congenital muscular dystrophy, of the merosin-deficient (lama2) type.  
 Adela is her mum, landscape archaeologist and digital historian working at the Aarhus University, teaching digital methods, building digital infrastructure for fellow scholars in humanities and social sciences, and all other interested community.
 
 Vivenne currently lives with her mum Adela in Aarhus, Denmark. 
