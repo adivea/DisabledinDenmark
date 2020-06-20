@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://vivifayeross.netlify.app/"
 languageCode = "en-us"
 title = "Globetrotting with Muscular Dystrophy"
 theme = "hugo-lithium"
