@@ -6,5 +6,23 @@
         <div><img class="center-image" src="images/ViviMain.png" width="50%"/></div>
 </div>
 
+<div class="content">
+    {{ range .Paginator.Pages }}
+        <article>
+            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+            <p>{{ .Summary }}</p>
+            <p><a href="{{ .Permalink }}">Read More</a></p>
+        </article>
+    {{ end }}
+
+    <div class="pagination">
+        {{ if .Paginator.HasPrev }}
+            <a href="{{ .Paginator.Prev.URL }}">Previous</a>
+        {{ end }}
+        {{ if .Paginator.HasNext }}
+            <a href="{{ .Paginator.Next.URL }}">Next</a>
+        {{ end }}
+    </div>
+</div>
 
 {{ partial "footer" . }}

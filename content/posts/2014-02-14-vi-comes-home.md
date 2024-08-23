@@ -3,22 +3,17 @@ date: "2014-02-14T21:49:57-07:00"
 title: Finally home
 ---
 
-This is a post written in plain Markdown (`*.md`) instead of R Markdown (`*.Rmd`). The major differences are:
+#Disability Arrangements
+All arrangements go through middleman, a social office in the city, whose representative wants to micromanage everything that regards Vivienne. Priya, our ss workers in fact monitors every move of any other institution. I get eager requests for information from hospital, daycare and other offices, lengthy wait times, and no explanation in terms of social office's mission and raison d'etre. SHe wishes to help, but within reason.
+After meeting her and her predecessor 3 months ago, nothing happens on the physiotherapy front. It takes weeks to get a written summary of our meeting even. 
+Overall, the centralized system is very slow, heavy and burdensome. If I just could pay for IKH access, VIvienne would have been there in February. Now is May and still nothing's happening.
 
-1. You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```` ```{r} ````);
-2. A plain Markdown post is rendered through [Blackfriday](https://gohugo.io/overview/configuration/), and an R Markdown document is compiled by [**rmarkdown**](http://rmarkdown.rstudio.com) and [Pandoc](http://pandoc.org).
 
-There are many differences in syntax between Blackfriday's Markdown and Pandoc's Markdown. For example, you can write a task list with Blackfriday but not with Pandoc:
+In Australia, it is a matter of knowing what to do, where to do it, and having the means to pay for the services. WIth the arrival of NDIS the means and accessiblity has gotten much easier. No need for diagnosis, and affidavit from therapists and teachers is sufficient to trigger funds release. With the NDIS subsidy, it boils down to the first two, which most parents figure out in th efirst one to two years of a child's disability. The BDIS subsidy comes or does not as a result of a single meeting with a social worker, who does a fairly detailede electronic assessment. Physical disability is rarely an issue for approval. THe receipt of money is tied to categories of support, such as technology, practical livign, travel. etc. and allowances can be discussed duering the meeting as well. 
 
-- [x] Write an R package.
-- [ ] Write a book.
-- [ ] ...
-- [ ] Profit!
+In DK, it is all of the above, except money is administered by the social worker, who decides. Parent's job is to persuading this another person, who has no experience with child, therapy, diagnosis,  to sign approvals. The social worker works for the state and is naturally incentivized to distribute funds equitably. The Conflict of Interest is massive. As a parent I am not in control, all I can do is grovel. Child belongs to state and state decides what the child gets.  There are distinct ceilings, which are set by the commune and preferred sinks for money, such as technology and social housing. My priorities matter little. I don't need clinical stuff or handicapped living, I need more relief so I can survive as a parent, but the office does not seem interested in parental survival or child inclusion. It seeks to maintain the face of Denmark as a rich place that endows disabled with wheelchairs and money, but ignores their emotional health or wider community. 
+Basically, disabled people in Denmark have fewer options and less freedom than disabled in Australia. If you are disabled in Australia and you prefer to cure your loneliness from disability by flying in a baloon, you can as long as you convince your case worker. In Denmark, forget your personal preference. You get a wheelchair and are told to be grateful. 
 
-Similarly, Blackfriday does not support LaTeX math and Pandoc does. I have added the MathJax support to this theme ([hugo-lithium](https://github.com/yihui/hugo-lithium)) but there is a caveat for plain Markdown posts: you have to include math expressions in a pair of backticks (inline: `` `$ $` ``; display style: `` `$$ $$` ``), e.g., `$S_n = \sum_{i=1}^n X_i$`.^[This is because we have to protect the math expressions from being interpreted as Markdown. You may not need the backticks if your math expression does not contain any special Markdown syntax such as underscores or asterisks, but it is always a safer choice to use backticks. When you happen to have a pair of literal dollar signs inside the same element, you can escape one dollar sign, e.g., `\$50 and $100` renders "\$50 and $100".] For R Markdown posts, you do not need the backticks, because Pandoc can identify and process math expressions.
 
-When creating a new post, you have to decide whether the post format is Markdown or R Markdown, and this can be done via the `ext` argument of the function `blogdown::new_post()`, e.g.
+The last complaint is the massive communication barrier. Letters are in pdf which takes copy pasting to translate. Often the jargon is beyond Google, so I don't know what the office approved and what they didn't. There is often no way to respond back via ebox, and emails don't have send-to response, you need to navigate through the ridiculous e-box tree and know what municipality department you fall under... It's not like you get a confirmation that your message arrived somewhere. Feels like Kafka's castle in the virtual...
 
-```r
-blogdown::new_post("Post Title", ext = '.Rmd')
-```
