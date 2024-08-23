@@ -29,6 +29,7 @@ enableEmoji = true
     description = "From Australia to Denmark: Adela and Vivienne's site."
     chapter = "Aarhus, June 2020"
     customCSS = ["css/erum.css", "css/font-awesome.min.css"]
+    paginate = 10  # Show 10 posts per page
 
     # options for highlight.js (version, additional languages, and theme)
     highlightjsVersion = "9.12.0"
