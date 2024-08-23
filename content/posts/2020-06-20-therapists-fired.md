@@ -1,6 +1,7 @@
 ---
 date: "2020-06-20T15:49:57-07:00"
 title: Therapists are dead, long live the therapists
+draft: false
 ---
 
 # Physiotherapy
